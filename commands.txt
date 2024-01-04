@@ -1,0 +1,17 @@
+# 1 -> pip install django
+# 2 -> pip install djangorestframework
+# 3 -> django-admin startproject simplecrud .
+
+# Start Server with
+    - python manage.py runserver
+
+# Create app
+    - python manage.py startapp projects
+    - Initialize projects in simplecrud/settings INSTALLED_APPS
+
+# Create first Model
+    - Run migration with
+    - python manage.py makemigration
+    - python manage.py migrate
+
+# Create endpoints rest api
